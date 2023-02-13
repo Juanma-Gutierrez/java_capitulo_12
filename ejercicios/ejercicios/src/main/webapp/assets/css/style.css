@@ -86,5 +86,16 @@ input, select{
 .image{
     border-radius: 5px;
     width:30%;
+}
 
+.monospace{
+    font-family:'Lucida Console', monospace;
+}
+
+.mini{
+    width:20px;
+}
+
+.hidden{
+    visibility:hidden;
 }
