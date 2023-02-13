@@ -15,10 +15,10 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 3</h3>
-                <h5>Escribe una aplicación que pida tu nombre. A continuación mostrará “Hola”
-                    seguido del nombre introducido. El nombre se deberá recoger mediante un
-                    formulario.
+                <h3>Ejercicio 2</h3>
+                <h5>Mejora el programa anterior de tal forma que la apariencia de la página web que
+                    muestra el navegador luzca más bonita mediante la utilización de CSS (utiliza
+                    siempre ficheros independientes para CSS para no mezclarlo con HTML).
                 </h5>
             </div>
             <hr>

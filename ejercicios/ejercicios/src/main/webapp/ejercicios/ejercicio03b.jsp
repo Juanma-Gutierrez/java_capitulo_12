@@ -15,15 +15,12 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 2</h3>
-                <h5>Mejora el programa anterior de tal forma que la apariencia de la página web que
-                    muestra el navegador luzca más bonita mediante la utilización de CSS (utiliza
-                    siempre ficheros independientes para CSS para no mezclarlo con HTML).
-                </h5>
+                <h3>Ejercicio 3</h3>
             </div>
             <hr>
             <div class="centered vertical">
-                <%String nombre = request.getParameter("nombre");
+                <%
+                    String nombre = request.getParameter("nombre");
                 out.print("Hola, " + nombre);%>
             </div>
             <hr>

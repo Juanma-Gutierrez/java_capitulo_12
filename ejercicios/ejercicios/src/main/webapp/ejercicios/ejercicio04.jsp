@@ -15,16 +15,16 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 3</h3>
-                <h5>Escribe una aplicación que pida tu nombre. A continuación mostrará “Hola”
-                    seguido del nombre introducido. El nombre se deberá recoger mediante un
-                    formulario.
+                <h3>Ejercicio 4</h3>
+                <h5>Realiza una aplicación que calcule la media de tres notas.
                 </h5>
             </div>
             <hr>
             <div class="centered vertical">
-                <form action="ejercicio03b.jsp" method="POST">
-                    <input type="text" placeholder="Nombre" name="nombre">
+                <form action="ejercicio04b.jsp" method="POST">
+                    <input type="number" placeholder="Nota 1" name="note1">
+                    <input type="number" placeholder="Nota 2" name="note2">
+                    <input type="number" placeholder="Nota 3" name="note3">
                     <input type="submit" class="myButton" value="Enviar">
                 </form>
             </div>
