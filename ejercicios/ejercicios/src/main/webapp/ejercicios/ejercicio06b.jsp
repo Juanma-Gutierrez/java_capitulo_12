@@ -15,14 +15,15 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 5</h3>
+                <h3>Ejercicio 6</h3>
             </div>
             <hr>
             <div class="centered vertical">
                 <%
-                    double euros = Double.parseDouble(request.getParameter("euros"));
-                    double pesetas = euros * 166.386;
-                    out.print(euros + "€ equivalen a: " + pesetas + " pesetas");
+                   //  out.print(Double.parseDouble(request.getParameter("pesetas")));
+                   double pesetas = Double.parseDouble(request.getParameter("pesetas"));
+                   double euros = (pesetas / 166.386);
+                   out.print(String.format("%.0f",pesetas) + " pesetas equivalen a: " + String.format("%.2f",euros) + " euros");
                 %>
 
             </div>

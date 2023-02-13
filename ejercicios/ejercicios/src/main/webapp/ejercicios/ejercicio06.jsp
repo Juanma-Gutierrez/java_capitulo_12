@@ -15,16 +15,16 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 5</h3>
+                <h3>Ejercicio 6</h3>
+                <h5>Realiza un conversor de pesetas a euros.
+                </h5>
             </div>
             <hr>
             <div class="centered vertical">
-                <%
-                    double euros = Double.parseDouble(request.getParameter("euros"));
-                    double pesetas = euros * 166.386;
-                    out.print(euros + "€ equivalen a: " + pesetas + " pesetas");
-                %>
-
+                <form action="ejercicio06b.jsp" method="POST">
+                    <input type="number" placeholder="Importe en pesetas" name="pesetas">
+                    <input type="submit" class="myButton" value="Enviar">
+                </form>
             </div>
             <hr>
             <div class="centered">
