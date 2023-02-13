@@ -15,17 +15,14 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 4</h3>
+                <h3>Ejercicio 5</h3>
             </div>
             <hr>
             <div class="centered vertical">
                 <%
-                    double note1 = Double.parseDouble(request.getParameter("note1"));
-                    double note2 = Double.parseDouble(request.getParameter("note2"));
-                    double note3 = Double.parseDouble(request.getParameter("note3"));
-                    double med = (note1+note2+note3)/3;
-                    out.print("La media de " + note1 + ", " + note2 + " y " + note3 + " es: " + med);
-
+                    int euros = Double.parseDouble(request.getParameter("euros"));
+                    double pesetas = euros * 166.386;
+                    out.print(euros + "€ equivalen a: " + pesetas + " pesetas");
                 %>
 
             </div>

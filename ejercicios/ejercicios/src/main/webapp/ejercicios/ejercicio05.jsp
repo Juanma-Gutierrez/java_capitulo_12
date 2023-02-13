@@ -15,19 +15,16 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 4</h3>
+                <h3>Ejercicio 5</h3>
+                <h5>Realiza un conversor de euros a pesetas.
+                </h5>
             </div>
             <hr>
             <div class="centered vertical">
-                <%
-                    double note1 = Double.parseDouble(request.getParameter("note1"));
-                    double note2 = Double.parseDouble(request.getParameter("note2"));
-                    double note3 = Double.parseDouble(request.getParameter("note3"));
-                    double med = (note1+note2+note3)/3;
-                    out.print("La media de " + note1 + ", " + note2 + " y " + note3 + " es: " + med);
-
-                %>
-
+                <form action="ejercicio05b.jsp" method="POST">
+                    <input type="number" placeholder="Importe en euros" name="euros">
+                    <input type="submit" class="myButton" value="Enviar">
+                </form>
             </div>
             <hr>
             <div class="centered">
