@@ -1,0 +1,84 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 13 feb 2023, 17:13:40
+    Author     : Juanma
+*/
+
+:root{
+    --color-primary: #212D40;
+    --color-primary-contrast: #DCEDFF;
+    --color-secondary: #F39A9D;
+    --color-secondary-contrast: #212D40;
+    --color-warning: #F9DF74;
+    --color-warning-contrast: #212D40;
+    --color-danger: #D66853;
+    --color-danger-contrast: #FFF;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial;
+    transition: 0.3s;
+}
+
+.wrapper{
+    width:80%;
+    margin:auto;
+}
+.centered {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical{
+    flex-direction:column;
+}
+
+.horizontal{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h1, h3{
+    margin:10px;
+    padding:20px;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    color: var(--color-primary-contrast);
+}
+h5{
+padding:10px;
+color:var(--color-primary);
+margin:20px;
+}
+.exercises{
+    align-items: flex-start;
+    margin:20px;
+}
+
+.myButton{
+    padding:5px;
+    margin:5px;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    color: var(--color-primary-contrast);
+    cursor: pointer;
+}
+
+.myButton:hover{
+    background-color: var(--color-primary-contrast);
+    color: var(--color-primary);
+}
+
+hr{
+    margin:20px 0px;
+}
+
+input{
+    padding:5px;
+    border-radius: 5px;
+}
