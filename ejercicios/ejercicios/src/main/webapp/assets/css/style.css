@@ -51,9 +51,9 @@ h1, h3{
     color: var(--color-primary-contrast);
 }
 h5{
-padding:10px;
-color:var(--color-primary);
-margin:20px;
+    padding:10px;
+    color:var(--color-primary);
+    margin:20px;
 }
 .exercises{
     align-items: flex-start;
@@ -78,7 +78,13 @@ hr{
     margin:20px 0px;
 }
 
-input{
+input, select{
     padding:5px;
     border-radius: 5px;
+}
+
+.image{
+    border-radius: 5px;
+    width:30%;
+
 }

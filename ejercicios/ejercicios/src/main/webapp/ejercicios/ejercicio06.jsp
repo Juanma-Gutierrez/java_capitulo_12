@@ -22,7 +22,7 @@
             <hr>
             <div class="centered vertical">
                 <form action="ejercicio06b.jsp" method="POST">
-                    <input type="number" placeholder="Importe en pesetas" name="pesetas">
+                    <input type="number" placeholder="Importe en pesetas" name="pesetas" required>
                     <input type="submit" class="myButton" value="Enviar">
                 </form>
             </div>
