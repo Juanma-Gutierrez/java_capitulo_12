@@ -22,7 +22,7 @@
                 <%
                     double euros = Double.parseDouble(request.getParameter("euros"));
                     double pesetas = euros * 166.386;
-                    out.print(euros + "€ equivalen a: " + pesetas + " pesetas");
+                    out.print(String.format("%.2f euros equivalen a %.0f pesetas",euros, pesetas));
                 %>
 
             </div>
