@@ -15,15 +15,16 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 11</h3>
-                <h5>Escribe una aplicación que genere el calendario de un mes. Se pedirá el nombre
-                    del mes, el año, el texto que queremos que aparezca sobre el calendario, el día
-                    de la semana en que cae el día 1 y el número de días que tiene el mes.
+                <h3>Ejercicio 12</h3>
+                <h5>Mejora la aplicación anterior de tal forma que no haga falta introducir el día de
+                    la semana en que cae el día 1 y el número de días que tiene el mes. El programa
+                    debe deducir estos datos del mes y el año. Pista: puedes usar la clase Calendar
+                    (java.util.Calendar).
                 </h5>
             </div>
             <hr>
             <div class="centered vertical">
-                <form action="ejercicio11b.jsp" method="POST" class="centered vertical"> 
+                <form action="ejercicio12b.jsp" method="POST" class="centered vertical"> 
                     <label>Nombre del mes:
                         <select name="mes">
                             <option value="1">Enero</option>
@@ -45,20 +46,6 @@
                     </label>
                     <label>Título del calendario:
                         <input type="text" name="titulo" required>
-                    </label>
-                    <label>Día de la semana en que cae el día 1:
-                        <select name="diaSemana">
-                            <option value="1">Lunes</option>
-                            <option value="2">Martes</option>
-                            <option value="3">Miércoles</option>
-                            <option value="4">Jueves</option>
-                            <option value="5">Viernes</option>
-                            <option value="6">Sábado</option>
-                            <option value="7">Domingo</option>
-                        </select>
-                    </label>
-                    <label>Número de días del mes:
-                        <input type="number" name="diasMes" min="28" max="31" required>
                     </label>
                     <input type="submit" class="myButton" value="Enviar">
                 </form>

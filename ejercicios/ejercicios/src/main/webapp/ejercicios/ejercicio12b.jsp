@@ -25,10 +25,8 @@
                         int mes = Integer.parseInt(request.getParameter("mes"));
                         int anyo = Integer.parseInt(request.getParameter("anyo"));
                         String titulo = request.getParameter("titulo");
-                        int diaSemana = Integer.parseInt(request.getParameter("diaSemana"));
-                        int diasMes = Integer.parseInt(request.getParameter("diasMes"));
-                     
-                        Ejercicio11 calendario = new Ejercicio11(mes, anyo, titulo, diaSemana, diasMes);
+
+                        Ejercicio11 calendario = new Ejercicio11(mes, anyo, titulo);
                         out.print(calendario);
                     %>
             </div>
