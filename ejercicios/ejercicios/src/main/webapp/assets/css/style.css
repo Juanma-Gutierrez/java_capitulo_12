@@ -45,7 +45,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 }
 h1, h3{
     margin:10px;
-    padding:20px;
+    padding:10px 20px;
     border-radius: 10px;
     background-color: var(--color-primary);
     color: var(--color-primary-contrast);
@@ -81,6 +81,7 @@ hr{
 input, select{
     padding:5px;
     border-radius: 5px;
+    margin:5px;
 }
 
 .image{
@@ -98,4 +99,11 @@ input, select{
 
 .hidden{
     visibility:hidden;
+}
+
+table, thead, tr, th, td{
+    border:1px solid var(--color-primary-contrast);
+    border-collapse: collapse;
+    text-align:center;
+    padding:5px;
 }
