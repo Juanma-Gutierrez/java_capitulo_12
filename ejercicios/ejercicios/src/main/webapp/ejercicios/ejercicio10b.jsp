@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="ejercicios.Ejercicio10"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,26 +17,23 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 9</h3>
+                <h3>Ejercicio 10</h3>
             </div>
             <hr>
             <div class="centered">
                 <div>
-                <%
-                   int num = Integer.parseInt(request.getParameter("number"));
-                %>
-                <%
-                    for (int i = 1; i <= num; i++){
-                        String row = "";
-                        for (int j = 0; j < (num - i); j++){
-                            row +="<img src='https://secure.webtoolhub.com/static/resources/icons/set1/a947bd4c2806.png' class='mini hidden'>";
+                    <%
+                        Ejercicio10 respuestas = new Ejercicio10();
+                        for (int i = 1; i <= 10; i++){
+                            String pregunta = "pregunta" + i;
+                            String respuesta = request.getParameter(pregunta);
+                            if (respuesta.charAt(1)=='a')
+                                respuestas.addTrue(i);
+                            else
+                                respuestas.addFalse(i);
                         }
-                        for (int j = 1; j < (i * 2); j++){
-                            row +="<img src='https://secure.webtoolhub.com/static/resources/icons/set1/a947bd4c2806.png' class='mini'>";
-                        }
-                        out.print(row + "<br>");
-                    }
-                %>
+                        out.print(respuestas);
+                    %>
                 </div>
             </div>
             <hr>

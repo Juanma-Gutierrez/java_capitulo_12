@@ -1,0 +1,64 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 feb 2023, 8:38:41
+    Author     : Juanma
+*/
+
+:root{
+    --color-primary:#0000a0;
+    --color-primary-contrast:#f0f0f0;
+    --color-secondary:#891eb3;
+    --color-secondary-contrast:#f0f0f0;
+    --color-danger: #1f0000;
+    --danger-contrast: #f0f0f0;
+    --color-success:#00f000;
+    --color-success-contrast:#f0f0f0;
+    --color-warning: #f0f000;
+    --color-warning-contrast:#404040;
+}
+
+h1{
+    color:var(--color-primary);
+}
+
+.data-container{
+  display:flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.data-container div{
+    padding:10px;
+}
+
+.item-input{
+    display:flex;
+    flex-direction: column;
+}
+
+.item-input label{
+    margin-left:10px;
+    font-size:1.2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.item-input input{
+    border-radius: 10px;
+    border:1px solid var(--color-primary);
+    padding:10px;
+}
+
+form input[type="submit"]{
+    background:var(--color-primary);
+    color:var(--color-primary-contrast);
+    padding:10px;
+    border-radius:10px;
+}
+
+.form-footer{
+    display:flex;
+    justify-content:flex-end;
+}

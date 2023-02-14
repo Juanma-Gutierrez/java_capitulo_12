@@ -5,6 +5,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Paso de cadena</title>
+        <link rel="stylesheet" href="Ejemplo1/assets/css/styles.css" type="text/css">
+        
     </head>
     <body>
         <h1>Pasando una cadena de caracteres</h1>

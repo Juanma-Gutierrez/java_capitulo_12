@@ -27,7 +27,10 @@
                 <a href="ejercicios/ejercicio07.jsp"><button class="myButton">Ejercicio 7</button></a>
                 <a href="ejercicios/ejercicio08.jsp"><button class="myButton">Ejercicio 8</button></a>
                 <a href="ejercicios/ejercicio09.jsp"><button class="myButton">Ejercicio 9</button></a>
-                <a href=""><button class="myButton">Ejercicio 10</button></a>
+                <a href="ejercicios/ejercicio10.jsp"><button class="myButton">Ejercicio 10</button></a>
+            </div>
+            <hr>
+            <div class="centered horizontal">
                 <a href=""><button class="myButton">Ejercicio 11</button></a>
                 <a href=""><button class="myButton">Ejercicio 12</button></a>
                 <a href=""><button class="myButton">Ejercicio 13</button></a>
