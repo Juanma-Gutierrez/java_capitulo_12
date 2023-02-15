@@ -15,21 +15,16 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 14</h3>
-                <h5>Escribe un programa que muestre los n primeros términos de la serie de
-                    Fibonacci. El primer término de la serie de Fibonacci es 0, el segundo es 1 y
-                    el resto se calcula sumando los dos anteriores, por lo que tendríamos que los
-                    términos son 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144… El número n se debe
-                    introducir por teclado.
+                <h3>Ejercicio 15</h3>
+                <h5>Realiza una aplicación que genere 100 números aleatorios del 1 al 200. Los
+                    primos deberán aparecer en un color diferente al resto.
                 </h5>
             </div>
             <hr>
             <div class="centered vertical">
-                <form action="ejercicio14b.jsp" method="POST" > 
-                    <label>Introduce el número de elementos a mostrar</label>
-                    <input type="number" name="fibo" required>
+                <form action="ejercicio15b.jsp" method="POST" > 
                     <div class="centered">
-                        <input type="submit" class="myButton" value="Enviar">
+                        <input type="submit" class="myButton" value="Generar números">
                     </div>
                 </form>
             </div>

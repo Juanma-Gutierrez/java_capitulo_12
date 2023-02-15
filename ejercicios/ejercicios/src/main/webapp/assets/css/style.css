@@ -119,3 +119,7 @@ table, thead, tr, th, td{
     text-align:center;
     padding:5px;
 }
+
+.danger-color{
+    color: var(--color-danger);
+}
