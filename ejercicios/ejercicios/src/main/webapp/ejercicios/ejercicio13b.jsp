@@ -5,7 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="ejercicios.Ejercicio11"%>
+<%@page import="ejercicios.Ejercicio13"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,18 +17,24 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 12</h3>
+                <h3>Ejercicio 13</h3>
             </div>
             <hr>
             <div class="centered vertical">
-                    <%
-                        int mes = Integer.parseInt(request.getParameter("mes"));
-                        int anyo = Integer.parseInt(request.getParameter("anyo"));
-                        String titulo = request.getParameter("titulo");
-
-                        Ejercicio11 calendario = new Ejercicio11(mes, anyo, titulo);
-                        out.print(calendario);
-                    %>
+                <%
+                    Ejercicio13 respuestas = new Ejercicio13();
+                    for (int i = 1; i <= 10; i++){
+                        String pregunta = "pregunta" + i;
+                        String res = request.getParameter(pregunta);
+                        if (res.equals("v")){
+                            respuestas.addTrue(i);
+                        } else{
+                        respuestas.addFalse(i);
+                        }
+                    }
+                    out.print(respuestas);
+                    out.print(respuestas.muestraResultado());
+                %>
             </div>
             <hr>
             <div class="centered">

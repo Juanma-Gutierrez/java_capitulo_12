@@ -4,7 +4,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 /* 
     Created on : 13 feb 2023, 17:13:40
-    Author     : Juanma
+    Author     : Juan Manuel Gutiérrez
 */
 
 :root{
@@ -37,6 +37,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 .vertical{
     flex-direction:column;
+}
+
+.row-left{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap:10px;
+}
+
+.w100{
+    min-width:100px;
 }
 
 .horizontal{

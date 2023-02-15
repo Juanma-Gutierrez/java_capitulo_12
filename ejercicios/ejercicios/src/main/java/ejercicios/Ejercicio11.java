@@ -6,7 +6,7 @@ package ejercicios;
  */
 /**
  *
- * @author romeo
+ * @author Juan Manuel Gutiérrez
  */
 import java.util.Calendar;
 

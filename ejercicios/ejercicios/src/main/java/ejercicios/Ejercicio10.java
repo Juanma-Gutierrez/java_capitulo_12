@@ -4,7 +4,7 @@
  */
 /**
  *
- * @author Juanma
+ * @author Juan Manuel Gutiérrez
  */
 package ejercicios;
 
