@@ -21,10 +21,8 @@
             <div class="centered vertical">
                 <%
                    int num = Integer.parseInt(request.getParameter("number"));
-                   out.print("<table>");
-
                 %>
-                <table>
+                <table class="ejercicio8">
                     <%
                         for (int i = 1; i <= 10; i++){
                         String row = "<tr>";
@@ -36,10 +34,8 @@
                         row += "</tr>";
                         out.print(row);
                         }
-                    out.print("</table>");
                     %>
                 </table>
-
             </div>
             <hr>
             <div class="centered">

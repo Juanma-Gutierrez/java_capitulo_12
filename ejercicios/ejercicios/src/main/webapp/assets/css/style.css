@@ -123,3 +123,7 @@ table, thead, tr, th, td{
 .danger-color{
     color: var(--color-danger);
 }
+
+.ejercicio8 td{
+    border:none;
+}
