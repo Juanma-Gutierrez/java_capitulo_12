@@ -37,6 +37,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 .vertical{
     flex-direction:column;
+    flex:1;
 }
 
 .row-left{
@@ -51,6 +52,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     min-width:100px;
 }
 
+.w50{
+    width:50vw;
+}
+
+.full-width{
+    width:100%;
+    justify-content: space-between;
+}
 .horizontal{
     flex-direction: row;
     flex-wrap: wrap;
@@ -200,4 +209,29 @@ table, thead, tr, th, td{
 }
 .ejercicio21 .vainilla{
     background-color:#fbea9d;
+}
+
+.ejercicio22 img{
+    padding:10px;
+    width:100px;
+    height:100px;
+    object-fit:cover;
+}
+.ejercicio22 img{
+    padding:10px;
+    width:100px;
+    height:100px;
+    object-fit:cover;
+}
+
+.pedido input{
+    width:50px;
+}
+
+.ejercicio22 p{
+    text-align: center;
+}
+
+.ejercicio22 table{
+    margin:20px;
 }

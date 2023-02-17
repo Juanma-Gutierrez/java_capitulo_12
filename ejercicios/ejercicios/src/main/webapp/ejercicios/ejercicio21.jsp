@@ -16,7 +16,7 @@
     <body>
         <div class="wrapper">
             <div class="centered vertical">
-                <h3>Ejercicio 20</h3>
+                <h3>Ejercicio 21</h3>
                 <h5>Implementa una máquina de helados. El usuario indica los porcentajes de
                     helado de chocolate, de fresa y de vainilla. Los porcentajes deben ser
                     números comprendidos entre 0 y 100. Si los porcentajes suman más de 100,
