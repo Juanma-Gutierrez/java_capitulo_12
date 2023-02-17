@@ -246,3 +246,11 @@ table, thead, tr, th, td{
 .ejercicio23 .danger{
     color:var(--color-danger);
 }
+
+.ejercicio24 .canvas{
+    width:30vw;
+}
+
+.derecha{
+    justify-content: flex-end;
+}
