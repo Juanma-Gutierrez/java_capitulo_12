@@ -5,7 +5,6 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="ejercicios.Ejercicio20"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,7 +19,7 @@
                 <h5>Realiza una aplicación en JSP que recoja mediante un formulario los votos de
                     los diferentes partidos políticos que concurren a las elecciones. A continuación,
                     se debe mostrar una gráfica circular y una tabla con los votos y los porcentajes
-                    tal y como se muestra en el ejemplo. Se recomienda usar la librería ChartJs
+                    tal y como se muestra en el ejemplo. Se recomienda usar la librería ChartJs.
                 </h5>
             </div>
             <hr>

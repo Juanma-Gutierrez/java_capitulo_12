@@ -27,11 +27,13 @@
             <hr>
             <div class="centered vertical ejercicio20">
                 <form action="ejercicio20.jsp" method="POST" > 
-                    <div class="centered vertical">
+                    <div class="centered vertical shadow">
                         <%
                             Ejercicio20 tablero = new Ejercicio20();
                             out.print(tablero);
                         %>
+                    </div>
+                    <div class="centered vertical">
                         <input type="submit" class="myButton" value="Nuevo tablero">
                     </div>
                 </form>

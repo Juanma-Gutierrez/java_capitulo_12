@@ -17,6 +17,7 @@
             <div class="centered">
                 <h1>Listado de ejercicios tema 12 JSP</h1>
             </div>
+            <hr>
             <div class="centered horizontal exercises">
                 <a href="ejercicios/ejercicio01.jsp"><button class="myButton">Ejercicio 1</button></a>
                 <a href="ejercicios/ejercicio02.jsp"><button class="myButton">Ejercicio 2</button></a>
@@ -42,10 +43,9 @@
                 <a href="ejercicios/ejercicio22.jsp"><button class="myButton">Ejercicio 22</button></a>
                 <a href="ejercicios/ejercicio23.jsp"><button class="myButton">Ejercicio 23</button></a>
                 <a href="ejercicios/ejercicio24.jsp"><button class="myButton">Ejercicio 24</button></a>
+                <a href="ejercicios/ejercicio25.jsp"><button class="myButton">Ejercicio 25</button></a>
             </div>
-            <hr>
             <div class="centered horizontal">
-                <a href=""><button class="myButton">Ejercicio 25</button></a>
             </div>
         </div>
     </body>

@@ -47,7 +47,7 @@ public class Ejercicio11 {
         String res = "";
         res += "<h4>" + this.titulo + "</h4>";
         res += "<h5>" + this.mes + "/" + this.anyo + "</h5>";
-        res += "<table><thead>";
+        res += "<table class='shadow'><thead>";
         res += "<th>Lunes</th>";
         res += "<th>Martes</th>";
         res += "<th>Miércoles</th>";
