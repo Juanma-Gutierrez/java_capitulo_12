@@ -21,15 +21,19 @@ public class Ejercicio19 {
     public void init(int money) {
         int jugada = (int) (Math.random() * 3);
 
-        if (jugada == 0) {
-            this.money *= 2;
-            this.image = "http://drive.google.com/uc?export=view&id=1YdU64oi5LfesF-G92C0mTNkx1kQI0WA3";
-        } else if (jugada == 1) {
-            this.money /= 2;
-            this.image = "http://drive.google.com/uc?export=view&id=1OWgr4Yc6yA9mu4_wZaEVLoR1ZivLUmLL";
-        } else {
-            this.money = 0;
-            this.image = "http://drive.google.com/uc?export=view&id=1dJmBnUD-QOyZBjqp7tjhk3299BcgZlI7";
+        switch (jugada) {
+            case 0:
+                this.money *= 2;
+                this.image = "http://drive.google.com/uc?export=view&id=1YdU64oi5LfesF-G92C0mTNkx1kQI0WA3";
+                break;
+            case 1:
+                this.money /= 2;
+                this.image = "http://drive.google.com/uc?export=view&id=1OWgr4Yc6yA9mu4_wZaEVLoR1ZivLUmLL";
+                break;
+            case 2:
+                this.money = 0;
+                this.image = "http://drive.google.com/uc?export=view&id=1dJmBnUD-QOyZBjqp7tjhk3299BcgZlI7";
+                break;
         }
     }
 

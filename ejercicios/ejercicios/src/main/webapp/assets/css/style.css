@@ -164,3 +164,40 @@ table, thead, tr, th, td{
 .ejercicio20 img{
     width:20px;
 }
+
+.ejercicio21 .seleccion input{
+    text-align: center;
+    width:75px;
+}
+
+.ejercicio21 img{
+    padding:10px;
+    width:200px;
+    height:200px;
+    object-fit:cover;
+}
+
+.ejercicio21 .helado{
+    width:200px;
+    padding:10px;
+}
+
+.ejercicio21 .vaso{
+    border:5px solid var(--color-primary);
+    border-top:none;
+    margin:30px;
+}
+.ejercicio21 .nata{
+    height:30px;
+}
+.ejercicio21 .chocolate{
+    background-color:#64021f;
+    color:white;
+}
+.ejercicio21 .fresa{
+    background-color:#FF6BBA;
+    color:white;
+}
+.ejercicio21 .vainilla{
+    background-color:#fbea9d;
+}
