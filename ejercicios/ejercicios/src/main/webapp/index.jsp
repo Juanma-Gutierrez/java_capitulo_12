@@ -40,10 +40,10 @@
                 <a href="ejercicios/ejercicio20.jsp"><button class="myButton">Ejercicio 20</button></a>
                 <a href="ejercicios/ejercicio21.jsp"><button class="myButton">Ejercicio 21</button></a>
                 <a href="ejercicios/ejercicio22.jsp"><button class="myButton">Ejercicio 22</button></a>
+                <a href="ejercicios/ejercicio23.jsp"><button class="myButton">Ejercicio 23</button></a>
             </div>
             <hr>
             <div class="centered horizontal">
-                <a href=""><button class="myButton">Ejercicio 23</button></a>
                 <a href=""><button class="myButton">Ejercicio 24</button></a>
                 <a href=""><button class="myButton">Ejercicio 25</button></a>
             </div>

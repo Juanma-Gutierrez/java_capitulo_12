@@ -235,3 +235,14 @@ table, thead, tr, th, td{
 .ejercicio22 table{
     margin:20px;
 }
+
+.ejercicio23 .square{
+    border:1px solid var(--color-primary-contrast);
+    width:50px;
+    height:50px;
+    font-size: 2.5rem;
+}
+
+.ejercicio23 .danger{
+    color:var(--color-danger);
+}
