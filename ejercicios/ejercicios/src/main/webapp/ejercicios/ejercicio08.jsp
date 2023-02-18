@@ -24,7 +24,10 @@
             <hr>
             <div class="centered vertical">
                 <form action="ejercicio08b.jsp" method="POST">
-                    <input type="number" placeholder="Introduce un número" name="number" min="1" max="10" required>
+                    <div class="centered horizontal ejercicio8">
+                        <label>Introduce un número del 1 al 10</label>
+                        <input type="number" placeholder="Número" name="number" min="1" max="10" required>
+                    </div>
                     <input type="submit" class="myButton" value="Enviar">
                 </form>
             </div>

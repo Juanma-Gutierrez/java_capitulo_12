@@ -76,7 +76,7 @@
                             for (int i = 0; i < partidos.length; i++){
                                 total += Double.parseDouble(request.getParameter(partidos[i]));
                             }
-                            out.print(total);
+                            out.print(String.format("%.0f",total));
                             %></td>
                     </tr>
                     <tr>

@@ -32,15 +32,15 @@
                     <div class="centered vertical">
                         <div class="centered horizontal">
                             <div class="option centered vertical">
-                                <img src="https://placekitten.com/150/200" alt="" />
+                                <img src="https://cdn-icons-png.flaticon.com/512/1161/1161624.png" class="vaso" />
                                 <input type="radio" name="jugada" value="1" id="color-" />
                             </div>
                             <div class="option centered vertical">
-                                <img src="https://placekitten.com/150/200" alt="" />
+                                <img src="https://cdn-icons-png.flaticon.com/512/1161/1161624.png" class="vaso" />
                                 <input type="radio" name="jugada" value="2" id="color-" />
                             </div>
                             <div class="option centered vertical">
-                                <img src="https://placekitten.com/150/200" alt="" />
+                                <img src="https://cdn-icons-png.flaticon.com/512/1161/1161624.png" class="vaso" />
                                 <input type="radio" name="jugada" value="3" id="color-" />
                             </div>
                         </div>

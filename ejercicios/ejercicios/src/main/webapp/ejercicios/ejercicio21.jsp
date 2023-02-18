@@ -38,7 +38,7 @@
                         <p>Seleccione los porcentajes para preparar un helado a su gusto</p>
                         <div class="centered horizontal">
                             <div class="centered vertical seleccion">
-                                <img src="https://unsplash.com/photos/XhWntGj2N98/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc2NjI2NDIz&force=true&w=640">
+                                <img src="https://unsplash.com/photos/Iyq_5YfvIng/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NzV8fGNob2NvbGF0fGVzfDB8fHx8MTY3NjcxNTYxNQ&force=true&w=640">
                                 <div class="centered">
                                     Chocolate<input type ="number" name="chocolate" value="0">%
                                 </div>
@@ -50,7 +50,7 @@
                                 </div>
                             </div>
                             <div class="centered vertical seleccion">
-                                <img src="https://unsplash.com/photos/TYA9f8hYEX4/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc2NjI2NTEw&force=true&w=640">
+                                <img src="https://unsplash.com/photos/iT4qcNMhYTQ/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc2NzE1NTM5&force=true&w=640">
                                 <div class="centered">
                                     Vainilla<input type ="number" name="vainilla" value="0">%
                                 </div>

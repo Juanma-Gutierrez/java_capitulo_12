@@ -44,7 +44,7 @@ public class Ejercicio15 {
         String res = "";
         for (int i = 0; i < this.numberList.size(); i++) {
             if (this.checkPrime.get(i) == true) {
-                res += "<span class='danger-color'>" + this.numberList.get(i) + ", </span>";
+                res += "<span class='prime'>" + this.numberList.get(i) + ", </span>";
             } else {
                 res += "<span>" +  this.numberList.get(i) + ", </span>";
             }

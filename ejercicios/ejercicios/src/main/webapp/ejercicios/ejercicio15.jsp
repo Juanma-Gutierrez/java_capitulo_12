@@ -5,6 +5,8 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="ejercicios.Ejercicio15"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,9 +24,16 @@
             </div>
             <hr>
             <div class="centered vertical">
-                <form action="ejercicio15b.jsp" method="POST" > 
+                <form action="ejercicio15.jsp" method="POST" > 
+                    <div class="centered horizontal ejercicio15">
+                        <%
+                            Ejercicio15 lista = new Ejercicio15(100, 1, 200);
+                            out.print(lista);
+                        %>
+                    </div>
+                    <hr>
                     <div class="centered">
-                        <input type="submit" class="myButton" value="Generar números">
+                        <input type="submit" class="myButton" value="Generar nuevos números">
                     </div>
                 </form>
             </div>

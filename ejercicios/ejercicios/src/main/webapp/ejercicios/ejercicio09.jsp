@@ -24,7 +24,8 @@
             <hr>
             <div class="centered vertical">
                 <form action="ejercicio09b.jsp" method="POST">
-                    <input type="number" placeholder="Introduce la altura" name="number" required>
+                    <label>Introduce la altura de la pirámide (3-20)</label>
+                    <input type="number" placeholder="3-20" name="number" min="3" max="20" required>
                     <input type="submit" class="myButton" value="Enviar">
                 </form>
             </div>

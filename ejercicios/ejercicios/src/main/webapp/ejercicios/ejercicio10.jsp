@@ -27,46 +27,76 @@
             <hr>
             <div class="centered vertical">
                 <form action="ejercicio10b.jsp" method="POST" class="centered vertical"> 
-                    <label>Pregunta 1:
-                        <input type="radio" id="pregunta1a" name="pregunta1" value="1a" checked="checked">
-                        <input type="radio" id="pregunta1b" name="pregunta1" value="1b">
-                    </label>
-                    <label>Pregunta 2:
-                        <input type="radio" id="pregunta2a" name="pregunta2" value="2a" checked="checked">
-                        <input type="radio" id="pregunta2b" name="pregunta2" value="2b">
-                    </label>
-                    <label>Pregunta 3:
-                        <input type="radio" id="pregunta3a" name="pregunta3" value="3a" checked="checked">
-                        <input type="radio" id="pregunta3b" name="pregunta3" value="3b">
-                    </label>
-                    <label>Pregunta 4:
-                        <input type="radio" id="pregunta4a" name="pregunta4" value="4a" checked="checked">
-                        <input type="radio" id="pregunta4b" name="pregunta4" value="4b">
-                    </label>
-                    <label>Pregunta 5:
-                        <input type="radio" id="pregunta5a" name="pregunta5" value="5a" checked="checked">
-                        <input type="radio" id="pregunta5b" name="pregunta5" value="5b">
-                    </label>
-                    <label>Pregunta 6:
-                        <input type="radio" id="pregunta6a" name="pregunta6" value="6a" checked="checked">
-                        <input type="radio" id="pregunta6b" name="pregunta6" value="6b">
-                    </label>
-                    <label>Pregunta 7:
-                        <input type="radio" id="pregunta7a" name="pregunta7" value="7a" checked="checked">
-                        <input type="radio" id="pregunta7b" name="pregunta7" value="7b">
-                    </label>
-                    <label>Pregunta 8:
-                        <input type="radio" id="pregunta8a" name="pregunta8" value="8a" checked="checked">
-                        <input type="radio" id="pregunta8b" name="pregunta8" value="8b">
-                    </label>
-                    <label>Pregunta 9:
-                        <input type="radio" id="pregunta9a" name="pregunta9" value="9a" checked="checked">
-                        <input type="radio" id="pregunta9b" name="pregunta9" value="9b">
-                    </label>
-                    <label>Pregunta 10:
-                        <input type="radio" id="pregunta10a" name="pregunta10" value="0a" checked="checked">
-                        <input type="radio" id="pregunta10b" name="pregunta10" value="0b">
-                    </label>
+                    <div class="centered horizontal full-width">
+                        <label>Pregunta 1:</label>
+                        <div>
+                            <input type="radio" name="pregunta1" value="true" checked="checked">
+                            <input type="radio" name="pregunta1" value="false">
+                        </div>
+                    </div>
+                    <div class="centered horizontal full-width">
+                        <label>Pregunta 2:</label>
+                        <div>
+                            <input type="radio" name="pregunta2" value="true" checked="checked">
+                            <input type="radio" name="pregunta2" value="false">
+                        </div>
+                    </div>
+                    <div class="centered horizontal full-width">
+                        <label>Pregunta 3:</label>
+                        <div>
+                            <input type="radio" name="pregunta3" value="true" checked="checked">
+                            <input type="radio" name="pregunta3" value="false">
+                        </div>
+                    </div>
+                    <div class="centered horizontal full-width">
+                        <label>Pregunta 4:</label>
+                        <div>
+                            <input type="radio" name="pregunta4" value="true" checked="checked">
+                            <input type="radio" name="pregunta4" value="false">
+                        </div>
+                    </div>
+                    <div class="centered horizontal full-width">
+                        <label>Pregunta 5:</label>
+                        <div>
+                            <input type="radio" name="pregunta5" value="true" checked="checked">
+                            <input type="radio" name="pregunta5" value="false">
+                        </div>
+                    </div>
+                    <div class="centered horizontal full-width">
+                        <label>Pregunta 6:</label>
+                        <div>
+                            <input type="radio" name="pregunta6" value="true" checked="checked">
+                            <input type="radio" name="pregunta6" value="false">
+                        </div>
+                    </div>
+                    <div class="centered horizontal full-width">
+                        <label>Pregunta 7:</label>
+                        <div>
+                            <input type="radio" name="pregunta7" value="true" checked="checked">
+                            <input type="radio" name="pregunta7" value="false">
+                        </div>
+                    </div>
+                    <div class="centered horizontal full-width">
+                        <label>Pregunta 8:</label>
+                        <div>
+                            <input type="radio" name="pregunta8" value="true" checked="checked">
+                            <input type="radio" name="pregunta8" value="false">
+                        </div>
+                    </div>
+                    <div class="centered horizontal full-width">
+                        <label>Pregunta 9:</label>
+                        <div>
+                            <input type="radio" name="pregunta9" value="true" checked="checked">
+                            <input type="radio" name="pregunta9" value="false">
+                        </div>
+                    </div>
+                    <div class="centered horizontal full-width">
+                        <label>Pregunta 10:</label>
+                        <div>
+                            <input type="radio" name="pregunta10" value="true" checked="checked">
+                            <input type="radio" name="pregunta10" value="false">
+                        </div>
+                    </div>
                     <br>
                     <input type="submit" class="myButton" value="Enviar">
                 </form>

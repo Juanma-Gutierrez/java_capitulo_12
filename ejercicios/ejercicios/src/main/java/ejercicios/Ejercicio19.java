@@ -24,15 +24,15 @@ public class Ejercicio19 {
         switch (jugada) {
             case 0:
                 this.money *= 2;
-                this.image = "http://drive.google.com/uc?export=view&id=1YdU64oi5LfesF-G92C0mTNkx1kQI0WA3";
+                this.image = "https://cdn-icons-png.flaticon.com/512/8709/8709146.png";
                 break;
             case 1:
                 this.money /= 2;
-                this.image = "http://drive.google.com/uc?export=view&id=1OWgr4Yc6yA9mu4_wZaEVLoR1ZivLUmLL";
+                this.image = "https://cdn-icons-png.flaticon.com/512/1410/1410986.png";
                 break;
             case 2:
                 this.money = 0;
-                this.image = "http://drive.google.com/uc?export=view&id=1dJmBnUD-QOyZBjqp7tjhk3299BcgZlI7";
+                this.image = "https://cdn-icons-png.flaticon.com/512/390/390160.png";
                 break;
         }
     }

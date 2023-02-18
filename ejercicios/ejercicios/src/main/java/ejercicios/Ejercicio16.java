@@ -23,22 +23,22 @@ public class Ejercicio16 {
         this.number = _number;
         switch (_number){
             case 1:
-                this.link = "http://drive.google.com/uc?export=view&id=1lqGT-EkpVr2CyaOBKdgKitZVMK0ZjMcy";
+                this.link = "https://cdn-icons-png.flaticon.com/512/8336/8336943.png";
                 break;
             case 2:
-                this.link = "http://drive.google.com/uc?export=view&id=1dnUor6sMTWDpwAikfZRnwSB-oWfy1vbI";
+                this.link = "https://cdn-icons-png.flaticon.com/512/8336/8336956.png";
                 break;
             case 3:
-                this.link = "http://drive.google.com/uc?export=view&id=1jAOeq2yst6pjJSze3Rts-kjNo5gSulAS";
+                this.link = "https://cdn-icons-png.flaticon.com/512/8336/8336955.png";
                 break;
             case 4:
-                this.link = "http://drive.google.com/uc?export=view&id=1kQC6BxIfZ8UBb5rCL9_h4hfVSqLFl5Ha";
+                this.link = "https://cdn-icons-png.flaticon.com/512/8336/8336933.png";
                 break;
             case 5:
-                this.link = "http://drive.google.com/uc?export=view&id=19Lq4rirqpDb-jc2xVMXGRBhCWm6SFFVa";
+                this.link = "https://cdn-icons-png.flaticon.com/512/8336/8336931.png";
                 break;
             case 6:
-                this.link = "http://drive.google.com/uc?export=view&id=1Ws2vjz6IcleZDYgxuf3B6DEAvDDnBOz0";
+                this.link = "https://cdn-icons-png.flaticon.com/512/8336/8336948.png";
                 break;
         }
     }

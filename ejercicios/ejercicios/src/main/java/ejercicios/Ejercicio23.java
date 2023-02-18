@@ -38,7 +38,7 @@ public class Ejercicio23 {
     }
 
     public String toString() {
-        String res = "<div class='centered vertical shadow'>";
+        String res = "<div class='centered vertical shadow tablero'>";
         for (int i = 0; i < 3; i++) {
             res += "<div class='centered horizontal'>";
             String play = "";

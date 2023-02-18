@@ -35,41 +35,39 @@
                 <form action="ejercicio22b.jsp" method="POST" > 
                     <div class="centered vertical w50">
                         <div class="centered horizontal pedido full-width">
-                            <div class="centered vertical">
+                            <div class="centered vertical full-height">
                                 <img src="https://cdn-icons-png.flaticon.com/512/5787/5787016.png">
                                 <p>Hamburgesa vegetariana</p>
                                 <input type="number" name="item0" value="0" required>
                             </div>
-                            <div class="centered vertical">
+                            <div class="centered vertical full-height">
                                 <img src="https://cdn-icons-png.flaticon.com/512/3480/3480618.png">
                                 <p>Pasta al pesto</p>
                                 <input type="number" name="item1" value="0" required>
                             </div>
-                            <div class="centered vertical">
+                            <div class="centered vertical full-height">
                                 <img src="https://cdn-icons-png.flaticon.com/512/1404/1404945.png">
                                 <p>Pizza caprese</p>
                                 <input type="number" name="item2" value="0" required>
                             </div>
-                            <div class="centered vertical">
+                            <div class="centered vertical full-height">
                                 <img src="https://cdn-icons-png.flaticon.com/512/783/783051.png">
                                 <p>Quinoa con verduras</p>
                                 <input type="number" name="item3" value="0" required>
                             </div>
-                            <div class="centered horizontal pedido full-width">
-                            </div>
                         </div>
                         <div class="centered horizontal pedido full-width">
-                            <div class="centered vertical">
+                            <div class="centered vertical full-height">
                                 <img src="https://cdn-icons-png.flaticon.com/512/824/824239.png">
                                 <p>Agua</p>
                                 <input type="number" name="item4" value="0" required>
                             </div>
-                            <div class="centered vertical">
+                            <div class="centered vertical full-height">
                                 <img src="https://cdn-icons-png.flaticon.com/512/931/931949.png">
                                 <p>Cerveza</p>
                                 <input type="number" name="item5" value="0" required>
                             </div>
-                            <div class="centered vertical">
+                            <div class="centered vertical full-height">
                                 <img src="https://cdn-icons-png.flaticon.com/512/2405/2405479.png">
                                 <p>Refresco</p>
                                 <input type="number" name="item6" value="0" required>

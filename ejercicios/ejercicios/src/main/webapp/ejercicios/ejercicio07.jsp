@@ -22,8 +22,8 @@
                 </h5>
             </div>
             <hr>
-            <div class="centered vertical">
-                <img src="https://unsplash.com/photos/1zO4O3Z0UJA/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NXx8bW9uZXl8ZXN8MHx8fHwxNjc2Mjc4MTQw&force=true&w=640" class="image">
+            <div class="centered vertical ejercicio7">
+                <img src="https://unsplash.com/photos/1zO4O3Z0UJA/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NXx8bW9uZXl8ZXN8MHx8fHwxNjc2Mjc4MTQw&force=true&w=640">
                 <form action="ejercicio07b.jsp" method="POST">
                     <input type="number" placeholder="Importe" name="money" required>
                     <select name="coin" id="coin">

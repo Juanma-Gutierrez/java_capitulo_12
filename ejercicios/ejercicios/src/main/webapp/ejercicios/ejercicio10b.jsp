@@ -26,8 +26,8 @@
                         Ejercicio10 respuestas = new Ejercicio10();
                         for (int i = 1; i <= 10; i++){
                             String pregunta = "pregunta" + i;
-                            String respuesta = request.getParameter(pregunta);
-                            if (respuesta.charAt(1)=='a')
+                            String res = request.getParameter(pregunta);
+                            if (res.equals("true"))
                                 respuestas.addTrue(i);
                             else
                                 respuestas.addFalse(i);
