@@ -28,33 +28,29 @@
             </div>
             <hr>
             <div class="centered vertical ejercicio18">
-                <form action="ejercicio18.jsp" method="POST" > 
-                    <div class="centered vertical">
-                        <div class="centered horizontal">
-                            <div class="option centered vertical">
-                                <img src="https://cdn-icons-png.flaticon.com/512/1161/1161624.png" class="vaso" />
-                                <input type="radio" name="jugada" value="1" id="color-" />
-                            </div>
-                            <div class="option centered vertical">
-                                <img src="https://cdn-icons-png.flaticon.com/512/1161/1161624.png" class="vaso" />
-                                <input type="radio" name="jugada" value="2" id="color-" />
-                            </div>
-                            <div class="option centered vertical">
-                                <img src="https://cdn-icons-png.flaticon.com/512/1161/1161624.png" class="vaso" />
-                                <input type="radio" name="jugada" value="3" id="color-" />
-                            </div>
-                        </div>
-                        <input type="submit" class="myButton" value="Seleccionar jugada">
+                <div class="centered vertical">
+                    <div class="centered horizontal">
+                        <a href="ejercicio18.jsp?jugada=1"> 
+                            <img src="https://cdn-icons-png.flaticon.com/512/1161/1161624.png" class="vaso" />
+                        </a>
+                        <a href="ejercicio18.jsp?jugada=2"> 
+                            <img src="https://cdn-icons-png.flaticon.com/512/1161/1161624.png" class="vaso" />
+                        </a>
+                        <a href="ejercicio18.jsp?jugada=3"> 
+                            <img src="https://cdn-icons-png.flaticon.com/512/1161/1161624.png" class="vaso" />
+                        </a>
                     </div>
-                </form>
-                <%
-                  String _jugada = request.getParameter("jugada");
-                  if (_jugada!=null){
-                    int opcion = Integer.parseInt(_jugada);
-                    Ejercicio18 jugada = new Ejercicio18(opcion);  
-                    out.print(jugada);
-                  }
-                %>
+                </div>
+                <div class="premio">
+                    <%
+                      String _jugada = request.getParameter("jugada");
+                      if (_jugada!=null){
+                        int opcion = Integer.parseInt(_jugada);
+                        Ejercicio18 jugada = new Ejercicio18(opcion);  
+                        out.print(jugada);
+                      }
+                    %>
+                </div>
             </div>
         </div>
         <hr>
